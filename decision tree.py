@@ -1,3 +1,6 @@
+#decision tree classification using the best split method for attributes assuming discrete values
+#coded by Akrita Agarwal
+
 import sys,math
 from xlrd import open_workbook,cellname
 
