@@ -14,4 +14,4 @@ Sample code is provided in python. Just change the name of the file to the requi
 A sample dataset "contact_lenses_dataset.xls" is provided to show the pattern of the input dataset accepted by the code.
 Modify the code as per the requirements.
 
-In case of any problems you can write to me : akrita@live.com
+In case of any suggestions/issues you can write to me : akrita@live.com
