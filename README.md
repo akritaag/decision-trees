@@ -15,13 +15,13 @@ A sample dataset "contact_lenses_dataset.xls" is provided to show the pattern of
 
 In case of any suggestions/issues you can write to me : akrita@live.com
 
+    Copyright 2013 Akrita Agarwal
 
-
-This program is free software: you can redistribute it and/or modify
+    This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     Akrita Agarwal, either version 3 of the License, or
     (at your option) any later version.
-
+    
     This program is distributed in the hope that it will be useful,
     but WITHOUT ANY WARRANTY; without even the implied warranty of
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
