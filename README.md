@@ -4,7 +4,7 @@ decision-trees
 decision trees that work with many features that assume discrete values. 
 At each step the tree splits on the feature which provides the maximum information.
 
-The decision tree algorithm used in the code is given in Introduction to Data Mining (http://www-users.cs.umn.edu/~kumar/dmbook/ch4.pdf)
+The decision tree algorithm used in the code is given in Introduction to Data Mining(http://www-users.cs.umn.edu/~kumar/dmbook/ch4.pdf)
 We first compute the information in the system using the classified classes, then we compute the entropy for each attribute.
 We then compare the information gain for each feature. The decision tree is split on the attribute that assumes the maximum information 
 gain.
