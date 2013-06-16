@@ -13,7 +13,7 @@ This process is repeated till we acquire a complete decision tree.
 Sample code is provided in python. Just change the name of the file to the required filename in line 144 of file "decision tree.py" and the code is directly usable.
 A sample dataset "contact_lenses_dataset.xls" is provided to show the pattern of the input dataset accepted by the code.
 
-In case of any suggestions/issues you can write to me : akrita@live.com
+In case of any suggestions/issues you can write to me : info@akrita.com
 
     Copyright 2013 Akrita Agarwal
 
