@@ -15,6 +15,9 @@ A sample dataset "contact_lenses_dataset.xls" is provided to show the pattern of
 
 In case of any suggestions/issues you can write to me : info@akrita.com
 
+General Public License (GPL)
+============================
+
     Copyright 2013 Akrita Agarwal
 
     This program is free software: you can redistribute it and/or modify
