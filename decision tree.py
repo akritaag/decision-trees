@@ -15,7 +15,6 @@
 #along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 import sys,math
-from xlrd import open_workbook,cellname
 
 count = 0
 
@@ -139,17 +138,25 @@ def information_gain(data,tree):
         for c in classes:
             if str(t[2]) not in c:
                 print("  "+str(c))
+
+# File I/O function
+def fileOpen(filename):
+    f=open(filename) 
+    data=[]
+    for line in f:
+        data.append(line.splitlines())    
+    return data
             
 def main(args):
-    book = open_workbook('contact_lenses_dataset.xls')
-    sheet = book.sheet_by_index(0)
     data = []
+    dataIn = fileOpen("contact_lenses_dataset.txt")
     
-    for row in range(0,sheet.nrows):
-        a=str(sheet.cell(row,1).value)+" "+str(sheet.cell(row,2).value)+" "+str(sheet.cell(row,3).value)+" " +str(sheet.cell(row,4).value)+" "+str(sheet.cell(row,5).value)
-        a = a.split()
-        data.append(a)
+    for i in dataIn:
+        data.append(i[0].split())
+    for i in data:
+        del(i[0])
 
     infogain = information_gain(data,[])
 
 if __name__ == "__main__": main(sys.argv)
+
