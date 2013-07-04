@@ -149,10 +149,10 @@ def fileOpen(filename):
             
 def main(args):
     data = []
-    dataIn = fileOpen("contact_lenses_dataset.txt")
+    dataIn = fileOpen("contact_lenses_dataset.csv")
     
     for i in dataIn:
-        data.append(i[0].split())
+        data.append(i[0].split(','))
     for i in data:
         del(i[0])
 
